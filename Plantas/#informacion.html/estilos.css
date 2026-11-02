@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ed;
+    color: #29452b;
+    margin: 0;
+}
+
+header {
+    background-color: #387446;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+nav {
+    background-color: #d5ebcf;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: #24552c;
+    text-decoration: none;
+    margin: 12px;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    padding: 18px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #387446;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+celulares*/
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+input,
+textarea {
+    max-width: 100%;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 10px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    header {
+        padding: 15px;
+    }
+
+    section {
+        padding: 12px;
+    }
+}
